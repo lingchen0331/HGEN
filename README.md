@@ -14,3 +14,8 @@ python hgen_syn.py
 ```
 
 All the hyperparameters are tuned and dataset have been attached. 
+Run the following code to see available parameters that can be passed in:
+
+```
+python stgen.py -h
+```
