@@ -386,8 +386,9 @@ def train():
             # ---------------------
             discriminator.train()
             optimizer_D.zero_grad()
-            fake_type = generator(initial_noise)[0].detach()
-            fake_node = generator(initial_noise)[1].detach()
+            fake_result = generator(initial_noise)
+            fake_type = fake_result[0].detach()
+            fake_node = fake_result[1].detach()
             loss_D = torch.mean(discriminator((fake_type, fake_node))) -\
                 torch.mean(discriminator((real_node_type, real_node_seq)))
 
