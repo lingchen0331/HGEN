@@ -21,3 +21,9 @@ Run the following code to see available parameters that can be passed in:
 ```
 python stgen.py -h
 ```
+
+The following is the dependency of the project:
+python=3.8.1  
+pytorch=1.10  
+networkx=2.5  
+numpy=1.20.2  
