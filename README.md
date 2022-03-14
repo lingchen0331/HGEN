@@ -29,3 +29,5 @@ pytorch=1.10
 networkx=2.5  
 numpy=1.20.2  
 ```
+
+In terms of generating your own latent embedding file, you could use (*hin2vec_emb_gen.py*) as a reference. The actual model of Hin2Vec is maintained [here](https://github.com/e-yi/hin2vec_pytorch).
