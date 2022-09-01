@@ -19,7 +19,7 @@ All the hyperparameters are tuned and dataset have been attached.
 Run the following code to see available parameters that can be passed in:
 
 ```
-python stgen.py -h
+python hgen.py -h
 ```
 
 The following is the dependency of the project:  
